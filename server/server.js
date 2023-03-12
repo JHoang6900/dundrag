@@ -25,7 +25,7 @@ const db = require("./config/connection");
 const PORT = process.env.PORT || 3001;
 const app = express();
 const server = new ApolloServer({
-  cache: bounded,
+  cache: "bounded",
   typeDefs,
   resolvers,
   context: authMiddleware,
