@@ -1,10 +1,10 @@
-const { Schema } = require("mongoose");
+// const { Schema } = require("mongoose");
 
-const packQuantitySchema = new Schema({
-  quantity: {
-    type: Number,
-    required: true,
-  },
-});
+// const packQuantitySchema = new Schema({
+//   quantity: {
+//     type: Number,
+//     required: true,
+//   },
+// });
 
-module.exports = packQuantitySchema;
+// module.exports = packQuantitySchema;

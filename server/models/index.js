@@ -1,7 +1,7 @@
 // const Ammunition = require("./Ammunition");
 // const Armor = require("./Armor");
 const Character = require("./Character");
-const Class = require("./dependency_models/Class");
+// const Class = require("./dependency_models/Class");
 // const Gear = require("./Gear");
 // const Pack = require("./Pack");
 const Profile = require("./Profile");
@@ -18,6 +18,5 @@ const Profile = require("./Profile");
 
 module.exports = {
   Character,
-  Class,
   Profile,
 };

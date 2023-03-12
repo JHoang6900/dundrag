@@ -1,20 +1,20 @@
-const { Schema } = require("mongoose");
-const classSchema = require("./Class")
+// const { Schema } = require("mongoose");
+// const classSchema = require("./Class")
 
-const levelSchema = new Schema({
-  level: {
-    type: Number,
-    required: true,
-  },
-  class: {
-    type: classSchema,
-    required: true,
-  },
-  prof_bonus: {
-    type: Number,
-  },
-});
+// const levelSchema = new Schema({
+//   level: {
+//     type: Number,
+//     required: true,
+//   },
+//   class: {
+//     type: classSchema,
+//     required: true,
+//   },
+//   prof_bonus: {
+//     type: Number,
+//   },
+// });
 
-// Class requires level. Level requires class. is this okay?
+// // Class requires level. Level requires class. is this okay?
 
-module.exports = levelSchema;
+// module.exports = levelSchema;
