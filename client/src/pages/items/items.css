@@ -1,7 +1,7 @@
-.items {
+.items-container {
   color: #fff;
 }
-.items h1, h3 {
+.items-container h1, h3 {
   display: flex;
   justify-content: center;
   align-items: center;
